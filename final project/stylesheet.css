@@ -1,0 +1,84 @@
+body {
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.topText {
+  position: absolute;
+  padding-left: 600px;
+  font-size: 40px;
+}
+
+.images {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.poemText {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+}
+
+.finalText {
+  position: absolute;
+  top: 0px;
+  left: 800px;
+  font-size: 30px;
+  line-height: 75px;
+  opacity: 0;
+}
+
+#object1 {
+  opacity: 0;
+}
+
+#object2 {
+  opacity: 0;
+}
+
+#object3 {
+  opacity: 0;
+}
+
+#wordFL {
+  position: absolute;
+  top: 475px;
+  left: 175px;
+  opacity: 0;
+  cursor: pointer;
+}
+#wordL {
+  position: absolute;
+  top: 475px;
+  left: 690px;
+  opacity: 0;
+  cursor: pointer;
+}
+#wordR {
+  position: absolute;
+  top: 475px;
+  left: 1175px;
+  opacity: 0;
+  cursor: pointer;
+}
+#wordFR {
+  position: absolute;
+  top: 475px;
+  left: 1625px;
+  opacity: 0;
+  cursor: pointer;
+}
